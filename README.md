@@ -1,12 +1,27 @@
-# React + Vite
+# Lakier do paznokci
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Lakiery do paznokci 
+Inspiracja i grafiki ze strony neonail.pl 
+Przygotuj stronę z prezentacją lakierów do paznokci 
 
-Currently, two official plugins are available:
+## Wymagania dotyczące strony: 
+---
+* Nagłówek 1 poziomu, wyśrodkowany 
+* 4 grafiki z odcieniami lakierów  
+* Opis lakieru: grafika, po prawej blok o szerokości 300px z informacjami o lakierze 
+* Przycisk do dodania do koszyka 
+* Dodaj minimum po 2 lakiery z każdego odcienia 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Działanie aplikacji: 
+---
+* Lakiery powinny być umieszczone w tablicy obiektów 
+* Lakier ma być komponentem 
+* Wyświetlenie wszystkich lakierów za pomocą metody map() 
+* Po najechaniu na komponent ma być ujęty w ramkę jak na rysunku po prawej 
+* Po naciśnięciu przycisku wyświetl w oknie dialogowym informację o dodaniu do koszyka lakieru o nazwie (z obiektu) 
+## Na 6: 
+---
+* U góry wstaw napis: w koszyku: 0 
+* Po kliknięciu w przycisk Dodaj do koszyka liczba     elementów w koszyku powinna się zwiększyć 
+* Po najechaniu na grafikę ma być ujęta w ramkę 
+* Po kliknięciu w grafikę zostaną pokazane tylko fioletowe/czerwone/złote/wszystkie lakiery 
